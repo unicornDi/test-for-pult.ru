@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+    <title>Портфолио</title>
+</head>
+<body>
+    <svg display="none">
+        <symbol id="arrow" viewBox="0 0 23 23">
+           <g>
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M14.5848 6.67869C14.6516 6.61175 14.7309 6.55865 14.8182 6.52241C14.9055 6.48618 14.9992 6.46753 15.0937 6.46753C15.1882 6.46753 15.2818 6.48618 15.3692 6.52241C15.4565 6.55865 15.5358 6.61175 15.6026 6.67869L19.9151 10.9912C19.982 11.058 20.0351 11.1373 20.0713 11.2246C20.1076 11.3119 20.1262 11.4055 20.1262 11.5001C20.1262 11.5946 20.1076 11.6882 20.0713 11.7755C20.0351 11.8629 19.982 11.9422 19.9151 12.0089L15.6026 16.3214C15.4676 16.4564 15.2846 16.5322 15.0937 16.5322C14.9028 16.5322 14.7198 16.4564 14.5848 16.3214C14.4499 16.1865 14.374 16.0034 14.374 15.8126C14.374 15.6217 14.4499 15.4387 14.5848 15.3037L18.3899 11.5001L14.5848 7.69644C14.5179 7.62967 14.4648 7.55036 14.4285 7.46304C14.3923 7.37572 14.3737 7.2821 14.3737 7.18756C14.3737 7.09302 14.3923 6.99941 14.4285 6.91209C14.4648 6.82477 14.5179 6.74545 14.5848 6.67869Z" fill="#A89365"/>
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M2.875 11.5C2.875 11.3094 2.95073 11.1266 3.08552 10.9918C3.22031 10.857 3.40313 10.7812 3.59375 10.7812H18.6875C18.8781 10.7812 19.0609 10.857 19.1957 10.9918C19.3305 11.1266 19.4062 11.3094 19.4062 11.5C19.4062 11.6906 19.3305 11.8734 19.1957 12.0082C19.0609 12.143 18.8781 12.2188 18.6875 12.2188H3.59375C3.40313 12.2188 3.22031 12.143 3.08552 12.0082C2.95073 11.8734 2.875 11.6906 2.875 11.5Z" fill="#A89365"/>
+            </g>
+        </symbol>
+    </svg>
+    <header class="header caps">
+        <h1 class="heading">Портфолио</h1>
+        <a class="header__link">Смотреть портфолио
+            <svg class="icon">
+                <use href="#arrow"></use>
+            </svg>
+        </a>
+    </header>
+    <main>
+        <div class="glide">
+            <div class="glide__track" data-glide-el="track">
+                <ul class="glide__slides">
+                    <li class="item glide__slide">
+                        <img src="img/portfolio_1.png">
+                        <p class="heading">Домашний кинотеатр с изюминкой</p>
+                        <p class="item__description">
+                            В нашем новом проекте домашнего кинотеатра задача была в целом довольно типичной –
+                            построить систему с использованием встроенных акустических систем.
+                        </p>
+                    </li>
+                    <li class="item glide__slide">
+                        <img src="img/portfolio_2.png">
+                        <p class="heading">Роскошный автомобиль с «умным салоном»</p>
+                        <p class="item__description">
+                            Эксклюзивный Mercedes Benz V class обрел не только шикарный салон первого класса с креслами,
+                            баром, сейфом и телевизором,
+                            но и благодаря нашей помощи позволил управлять всем этим богатством с iPad!
+                        </p>
+                    </li>
+                    <li class="item glide__slide">
+                        <img src="img/portfolio_3.png">
+                        <p class="heading">Гостиная-кинотеатр</p>
+                        <p class="item__description">
+                            Посмотрев на фотографии этой светлой гостиной сразу и не поймешь,
+                            что расположена она в цокольном этаже дома и не имеет окон.
+                        </p>
+                    </li>
+                    <li class="item glide__slide">
+                        <img src="img/portfolio_4.png">
+                        <p class="heading">Кинотеатр на крыше</p>
+                        <p class="item__description">
+                            Посмотрев на фотографии этой светлой гостиной сразу и не поймешь,
+                            что расположена она в цокольном этаже дома  и не имеет окон.
+                        </p>
+                    </li>
+                </ul>
+                <div class="glide__bullets" data-glide-el="controls[nav]">
+                    <button class="glide__bullet" data-glide-dir="=0"></button>
+                    <button class="glide__bullet" data-glide-dir="=1"></button>
+                    <button class="glide__bullet" data-glide-dir="=2"></button>
+                    <button class="glide__bullet" data-glide-dir="=3"></button>
+                </div>
+                <div class="glide__arrows" data-glide-el="controls">
+                    <button class="glide__arrow glide__arrow--left" data-glide-dir="<"><i class="arrow left"></i></button>
+                    <button class="glide__arrow glide__arrow--right" data-glide-dir=">"><i class="arrow right"></i></button>
+                </div>
+            </div>
+        </div>
+        <div class="buttons caps">
+            <a class="buttons__specialist">Заказать выезд специалиста</a>
+            <a class="buttons__project">Заказать проектирование</a>
+        </div>
+    </main>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/@glidejs/glide"></script>
+<script>
+    let config = {
+            type: "carousel",
+            perView: 4,
+            bound: "false",
+            breakpoints: {
+                1100: {
+                    perView: 2
+                },
+                600: {
+                    perView: 1
+                }
+            }
+    }
+
+    new Glide(".glide", config).mount();
+
+</script>
+</html>
